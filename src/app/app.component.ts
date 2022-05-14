@@ -13,4 +13,7 @@ export class AppComponent {
   Mesaj():void{
     alert("button click event çalıştırıldı")
   }
+  ChangeEvent(value:any):void{
+    alert(value.target.value)
+  }
 }

@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularBaseLearning';
+
+  inputType='date';
+  _style='background-color:blue'
 }

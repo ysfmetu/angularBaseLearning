@@ -10,4 +10,7 @@ export class AppComponent {
 
   inputType='date';
   _style='background-color:blue'
+  Mesaj():void{
+    alert("button click event çalıştırıldı")
+  }
 }
